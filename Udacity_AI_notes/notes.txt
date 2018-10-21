@@ -1,0 +1,17 @@
+
+######################### Numpy ##################
+
+x = np.random.randint(1,11,size=(10,))
+np.sort(x)//this is function,it not change the original data of x
+x.sort()//this is method,it change the original data of x
+
+(see lesson 3, 9 viedo numpy)
+
+https://docs.scipy.org/doc/numpy-1.13.0/user/basics.broadcasting.html
+
+##################### Pandas ####################
+
+Pandas documents(whole pandas topic or syllabus):=https://pandas.pydata.org/pandas-docs/stable/
+
+A Pandas series is a one-dimensional array-like object that can hold many data types, such as numbers or strings. One of the main differences between Pandas Series and NumPy ndarrays is that you can assign an index label to each element in the Pandas Series. In other words, you can name the indices of your Pandas Series anything you want. Another big difference between Pandas Series and NumPy ndarrays is that Pandas Series can hold data of different data types.
+
